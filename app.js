@@ -3,8 +3,9 @@ var div = document.createElement('div');
 var h1 = document.createElement('h1');
 var input = document.createElement('input');
 
-// add a text to the h1
+// add a text to the h1 and add font family to the h1
 h1.textContent = 'Hello World';
+h1.style.fontFamily = 'Arial';
 
 // add the h1 and input to the div
 div.appendChild(h1);
